@@ -35,3 +35,31 @@ Heart Disease Prediction
 
 ![image](https://user-images.githubusercontent.com/73817610/174979581-097b8d35-ec48-460d-9281-02121ef8349d.png)
 
+
+
+
+
+
+
+
+
+
+
+####Start eith tiny model
+![image](https://user-images.githubusercontent.com/73817610/175193619-f99b4852-2a1f-4e74-ae06-2cfa796170c3.png)
+![image](https://user-images.githubusercontent.com/73817610/175193927-63c50ffa-2fbd-46b2-bee7-9b6bd5caafb4.png)
+![image](https://user-images.githubusercontent.com/73817610/175194007-656ad73f-ffc3-43b9-ae98-56092d8073dd.png)
+
+###Then small model
+![image](https://user-images.githubusercontent.com/73817610/175194178-972c7e45-a779-4847-8e1d-144fdf46bb95.png)
+![image](https://user-images.githubusercontent.com/73817610/175194265-cd532d8b-ec4c-4e49-8b97-ecf3034d9dcb.png)
+![image](https://user-images.githubusercontent.com/73817610/175194390-72d533a3-02d2-4a9b-a85b-9908b078ff50.png)
+##medium model
+![image](https://user-images.githubusercontent.com/73817610/175194591-a89df7fa-b0c4-4157-b0a0-52f3578c585b.png)
+![image](https://user-images.githubusercontent.com/73817610/175194661-d1e0fcf5-93c8-4a58-a894-3dcdb126cc7f.png)
+![image](https://user-images.githubusercontent.com/73817610/175194795-80af2829-c8e5-4520-bac2-9abfa31ce484.png)
+
+
+
+
+
