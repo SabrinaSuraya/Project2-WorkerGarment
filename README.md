@@ -27,37 +27,15 @@ Heart Disease Prediction
 - Model summary:
 ![image](https://user-images.githubusercontent.com/73817610/174978773-e3b2c535-f39d-4386-80c3-79c30b793f9a.png)
 
--The model is compile with optimizer of 'adam' with learning rate = 0.001, loss= mse (mean-squared-error), metrics of mae(mean-absolute-error), batch_size of 16 and epochs of 200
+-The model is compile with optimizer of 'adam' with learning rate = 0.001, loss= mse (mean-squared-error), batch_size of 16 and epochs of 200.
+- We also use th Early Stopping in the model to avoid overfit.
 - The value is display by using TensorBoard:
 
-![image](https://user-images.githubusercontent.com/73817610/174979469-16ea0541-5e16-43fe-b7c2-0f25a075d550.png)
-
-
-![image](https://user-images.githubusercontent.com/73817610/174979581-097b8d35-ec48-460d-9281-02121ef8349d.png)
-
+![image](https://user-images.githubusercontent.com/73817610/175349673-d0b2a359-5ad8-4a64-abb8-994938a5efec.png)
+![image](https://user-images.githubusercontent.com/73817610/175349720-836d9102-38ed-4867-9f2b-449bb5a67c2b.png)
 
 
 
-
-
-
-
-
-
-
-####Start eith tiny model
-![image](https://user-images.githubusercontent.com/73817610/175193619-f99b4852-2a1f-4e74-ae06-2cfa796170c3.png)
-![image](https://user-images.githubusercontent.com/73817610/175193927-63c50ffa-2fbd-46b2-bee7-9b6bd5caafb4.png)
-![image](https://user-images.githubusercontent.com/73817610/175194007-656ad73f-ffc3-43b9-ae98-56092d8073dd.png)
-
-###Then small model
-![image](https://user-images.githubusercontent.com/73817610/175194178-972c7e45-a779-4847-8e1d-144fdf46bb95.png)
-![image](https://user-images.githubusercontent.com/73817610/175194265-cd532d8b-ec4c-4e49-8b97-ecf3034d9dcb.png)
-![image](https://user-images.githubusercontent.com/73817610/175194390-72d533a3-02d2-4a9b-a85b-9908b078ff50.png)
-##medium model
-![image](https://user-images.githubusercontent.com/73817610/175194591-a89df7fa-b0c4-4157-b0a0-52f3578c585b.png)
-![image](https://user-images.githubusercontent.com/73817610/175194661-d1e0fcf5-93c8-4a58-a894-3dcdb126cc7f.png)
-![image](https://user-images.githubusercontent.com/73817610/175194795-80af2829-c8e5-4520-bac2-9abfa31ce484.png)
 
 
 
