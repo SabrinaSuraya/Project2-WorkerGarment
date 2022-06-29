@@ -25,7 +25,7 @@ Heart Disease Prediction
 - Perform data preprocessing where we spilt data into feature(inputs) and label (output). The output is in the form of probabilities (0~1), to show that this project     is regression problem
 - the model constist of 7 dense layers. 
 
-# Training and Test Data
+# Model
 
 - Model summary:
 
@@ -39,13 +39,13 @@ Heart Disease Prediction
 ![image](https://user-images.githubusercontent.com/73817610/175349673-d0b2a359-5ad8-4a64-abb8-994938a5efec.png)
 
 ![image](https://user-images.githubusercontent.com/73817610/175349720-836d9102-38ed-4867-9f2b-449bb5a67c2b.png)
-# Data Evaluate
+# Model Evaluate
 
 ![image](https://user-images.githubusercontent.com/73817610/176489855-32046bc9-e315-4a03-97ba-018916d2e5e4.png)
 
 the top is for training loss, the bottom is for test loss
 
-# Prediction
+# Model Prediction
 - the prediction on the first 5 data test
 
 ![image](https://user-images.githubusercontent.com/73817610/176490126-02edf8e3-b215-42c2-8729-920d781ccb98.png)
