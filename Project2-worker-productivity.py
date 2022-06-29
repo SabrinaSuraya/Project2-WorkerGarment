@@ -32,18 +32,18 @@ print(worker_data.isna().sum())
 #null is present in the wip column
 #%%
 #perform Data Cleaning
-#(a) Drop less useful columns
+# Drop less useful columns
 worker_data= worker_data.drop(['date', 'quarter', 'day'], axis= 1)
 
 #worker_data= worker_data.wip.fillna(worker_data.wip.mean())
-#(d) Replace missing values in Title column
+#Replace missing values in Title column
 worker_data = worker_data.fillna(value={'wip':worker_data['wip'].mean()})
 
 print(worker_data.isna().sum())
 #DATA CLEANING IS DONE
 #%%
 worker_data['actual_productivity'].value_counts()
-#is not classification is regression problme
+#as regression problem
 
 #%%
 #DATA PREPROCESSING
@@ -55,8 +55,6 @@ worker_data = pd.get_dummies(worker_data)
 #5. Split into features and labels
 feature= worker_data.copy()
 label= worker_data.pop('actual_productivity')
-
-
 
 #%%
 
@@ -97,15 +95,21 @@ tb = TensorBoard(log_dir=log_path)
 es= EarlyStopping(monitor='val_loss',patience=10) 
 
 model.compile(optimizer='adam',loss='mse')
-history = model.fit(x_train,y_train,validation_data=(x_test,y_test),batch_size=16,epochs=200,callbacks=[tb, es])
+history = model.fit(x_train,y_train,validation_data=(x_test,y_test),batch_size=16,epochs=100,callbacks=[tb, es])
 
+#%%
 
+#Predict x test
+predicted= model.predict(x_test)
 
+#%%
+#Make the comparison between predicted and actual
+pd.DataFrame(np.c_[y_test,predicted],columns=['Actual','Predicted']).head(5)
 
-
-
-
-
-
+#%%
+#Evaluate model with test data
+train_loss= model.evaluate(x_train, y_train, verbose=2 )
+test_loss= model.evaluate(x_test, y_test, verbose=2 )
+#%%
 
 
